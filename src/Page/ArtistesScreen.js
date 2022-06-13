@@ -1,11 +1,11 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
 
-class Friend extends React.Component {
+class Artistes extends React.Component {
   render() {
     return (
       <View>
-        <Text>Add friends here!</Text>
+        <Text>Listes des Artistes</Text>
         <Button
           title="Back to home"
           onPress={() =>
@@ -17,4 +17,4 @@ class Friend extends React.Component {
   }
 }
 
-export default Friend;
+export default Artistes;
